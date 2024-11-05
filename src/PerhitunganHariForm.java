@@ -55,7 +55,7 @@ public class PerhitunganHariForm extends javax.swing.JFrame {
             updateInfoHari(tahunTerpilih, bulanTerpilih);
         });
 
-        // Event untuk tombol hitung selisih
+        // Event untuk tombol hitung selisih yang menggunakan jButton3
         jButton3.addActionListener(evt -> hitungSelisihHari());
     }
 
